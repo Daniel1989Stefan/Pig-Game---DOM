@@ -67,19 +67,23 @@ footer{
     .explanation, .wins, .btn, .total-score, .score {
         width: 95%; 
         padding: 5px; 
-        height: auto;
+        height: auto; 
     }
 
     .btn {
         width: 80%; 
     }
 
+    
     .player {
-        flex-direction: column; 
-        gap: 5px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px; 
+        width: 100%; 
+        max-width: 200px; 
     }
 
-    
     .total-score-contenitor, .score-contenitor, .wins-contenitor {
         flex-direction: row !important; 
         justify-content: center;
@@ -93,7 +97,7 @@ footer{
 
     .btn-style {
         width: 140px; 
-        font-size: 12px;
+        font-size: 12px; 
         padding: 8px 12px; 
     }
 
