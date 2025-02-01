@@ -1,0 +1,105 @@
+*{
+    font-family: 'optima', sans-serif;
+}
+.hidden{
+    display: none;
+}
+.no-style {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FF9C73;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    
+}
+
+.explanation, .wins, .btn, .total-score, .score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+
+
+.btn{
+    width: 30%;
+}
+
+.explanation-contenitor{
+    text-align: center;
+}
+
+.player, .total-score-contenitor, .score-contenitor, .wins-contenitor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.dice-img{
+    height: 130px;
+    width: 130px;
+}
+
+.btn-style{
+    background-color: #FCF596;
+    width: 200px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        justify-content: flex-start; 
+    }
+
+    .explanation, .wins, .btn, .total-score, .score {
+        width: 95%; 
+        padding: 5px; 
+        height: auto;
+    }
+
+    .btn {
+        width: 80%; 
+    }
+
+    .player {
+        flex-direction: column; 
+        gap: 5px; 
+    }
+
+    
+    .total-score-contenitor, .score-contenitor, .wins-contenitor {
+        flex-direction: row !important; 
+        justify-content: center;
+        gap: 30px; 
+    }
+
+    .dice-img {
+        height: 80px; 
+        width: 80px;
+    }
+
+    .btn-style {
+        width: 140px; 
+        font-size: 12px;
+        padding: 8px 12px; 
+    }
+
+    
+    .explanation, .wins, .total-score, .score {
+        min-height: 50px; 
+        padding: 5px; 
+    }
+}

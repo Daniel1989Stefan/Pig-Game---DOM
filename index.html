@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pig Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="explanation">
+        <h3>Rules:</h3>
+        
+        <ul class="no-style explanation-contenitor">
+            <li>You can roll the dice as many times as you want.</li>
+            <li>If you roll a 1, you will lose all the points in your current "Score".</li>
+            <li>If you press "Add to Total Score," your current score will be added to your total score.</li>
+            <li>The first player to reach 100 points in the "Total Score" wins.</li>
+            </ul>
+        
+    </section>
+
+    <section class="player">
+        <p class="name-of-player-1">Player 1</p>
+        <p class ='name-of-player-2'>Player 2</p>
+    </section>
+
+    <section class="wins">
+        <p>Wins</p>
+        <div class="wins-contenitor">
+            <p class="result-wins-p1">0</p>
+            <p class="result-wins-p2">0</p>
+        </div>
+    </section>
+
+    <section class="btn">
+        <button class="roll-the-dice hidden btn-style">Roll the Dice</button>
+        <button class="start btn-style">Start the game</button>
+        <button class="next-player hidden btn-style">Add to total score</button>
+    </section>
+
+    <section class="dice">
+        <img src="./images/dice1.png" class = "dice-img" />
+    </section>
+
+    <section class="total-score">
+        <p>Total Score </p>
+        <div class="total-score-contenitor">
+            <p class="total-score-p1">0</p>
+            <p class="total-score-p2">0</p>
+        </div>
+    </section>
+
+    <section class="score">
+        <p>Score</p>
+        <div class="score-contenitor">
+            <p class="score-p1">0</p>
+            <p class="score-p2">0</p>
+        </div>
+    </section>
+    <footer>
+        © Stefan Daniel Danca 2025 || Jonas Schmedtmann Course on Udemy || Pig Game - DOM
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
