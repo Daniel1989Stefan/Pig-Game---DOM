@@ -48,16 +48,24 @@ body{
 .dice-img{
     height: 130px;
     width: 130px;
+    
 }
 
 .btn-style{
     background-color: #FCF596;
     width: 200px;
     border-radius: 5px;
+    margin-bottom: 5px; 
 }
 footer{
     text-align: center;
 }
+
+.wins, .total-score, .score, .player {
+    font-weight: bold;
+}
+
+
 
 @media (max-width: 600px) {
     body {
